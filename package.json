@@ -1,8 +1,22 @@
 {
   "name": "mui-button",
   "version": "0.1.0",
-  "private": true,
+  "author": "Hamidreza Nateghi",
+  "keywords": [
+    "react",
+    "material",
+    "ui",
+    "button"
+  ],
+  "description": "The Material-UI Button with more color options",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamidreza-nateghi/mui-button"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -13,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "babel ./src --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +48,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@types/lodash": "^4.14.172"
   }
 }
