@@ -1,11 +1,11 @@
 {
   "name": "mui-button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Hamidreza Nateghi",
   "keywords": [
     "react",
     "material",
-    "ui",
+    "material ui",
     "button"
   ],
   "description": "The Material-UI Button with more color options",
@@ -16,6 +16,12 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/env"
+    ]
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
