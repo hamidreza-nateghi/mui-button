@@ -75,4 +75,4 @@ The MIT License.
 
 ## Author
 
-[Hamidreza Nateghi](hamidreza-nateghi.github.io)
+[Hamidreza Nateghi](http://hamidreza-nateghi.github.io)
