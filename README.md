@@ -2,7 +2,7 @@
 
 ## Description
 
-A Generic, extendible Carousel UI component for React using [Material UI](https://material-ui.com/)
+The [Material UI](https://material-ui.com/) Button with more color options from theme palette
 
 ## Live Demo
 
