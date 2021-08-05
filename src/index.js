@@ -7,6 +7,30 @@ import clsx from "clsx";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
+    textSuccess: {
+      color: theme.palette.success.main,
+      "&:hover": {
+        backgroundColor: alpha(theme.palette.success.main, theme.palette.action.hoverOpacity),
+      },
+    },
+    textError: {
+      color: theme.palette.error.main,
+      "&:hover": {
+        backgroundColor: alpha(theme.palette.error.main, theme.palette.action.hoverOpacity),
+      },
+    },
+    textWarning: {
+      color: theme.palette.warning.main,
+      "&:hover": {
+        backgroundColor: alpha(theme.palette.warning.main, theme.palette.action.hoverOpacity),
+      },
+    },
+    textInfo: {
+      color: theme.palette.info.main,
+      "&:hover": {
+        backgroundColor: alpha(theme.palette.info.main, theme.palette.action.hoverOpacity),
+      },
+    },
     outlinedSuccess: {
       color: theme.palette.success.main,
       borderColor: alpha(theme.palette.success.main, 0.5),
