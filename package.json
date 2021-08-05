@@ -15,6 +15,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
