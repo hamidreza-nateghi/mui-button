@@ -2,7 +2,7 @@
 
 ## Description
 
-The [Material UI](https://material-ui.com/) Button with more color options from theme palette
+The [Material UI](https://material-ui.com) Button with more color options from theme palette
 
 ## Live Demo
 
@@ -16,7 +16,7 @@ npm install mui-button
 
 **Note:**
 
-You will need to have [Material UI](https://material-ui.com/) installed, in order to use this component
+You will need to have [`material-ui`](https://github.com/mui-org/material-ui) installed, in order to use this component
 
 ```shell
 npm install @material-ui/core
