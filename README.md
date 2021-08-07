@@ -11,12 +11,12 @@ Take a look at [Live Demo](http://hamidreza-nateghi.github.io/mui-button)
 ## Installation
 
 ```shell
-npm install mui-button --save
+npm install mui-button
 ```
 
 **Note:**
 
-You will need to have `material-ui` installed, in order to use this component
+You will need to have [Material UI](https://material-ui.com/) installed, in order to use this component
 
 ```shell
 npm install @material-ui/core
@@ -25,12 +25,12 @@ npm install @material-ui/core
 ## Usage Example
 
 ```jsx
-import React from "react";
-import Button from "mui-button";
+import React from 'react';
+import Button from 'mui-button';
 
 function Example() {
   return (
-    <Button color="error" variant="outlined">
+    <Button color='error' variant='outlined'>
       Submit
     </Button>
   );
